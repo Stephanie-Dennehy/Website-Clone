@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Treact Clone</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/2a7f21b7eb.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="row">
         <nav class="nav">
             <div class="logo">
-                <img src="/assets/logo.svg" alt="logo of purple letter T">
+                <img src="/assets/logo.svg" alt="logo of purple letter T" class="business__logo">
                 <h3 class="purple">Treact</h3>
             </div>
             <ul>
@@ -36,15 +37,20 @@
         </nav>
     </div>
         <header>
-            <div class="container">
-                <div class="row">
+            <div class="row two__column">
+                <div class="container__left">
                     <h1>Beautiful React Templates <span class="purple">for you</span></h1>
                     <p>Our templates are easy to set up, understand, and customize. Fully modular components with a variety of pages and components.</p>
-                    <input type="email"></input>
-                    <p>OUR TRUSTED PARTNERS</p>
-                    <img src="/assets/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt="" class="business__logo">
-                    <figure class="header__img">
-                        <img src="/assets/hero-img.svg" alt="">
+                    <div class="button__container">
+                        <input type="email" placeholder="Your E-mail Address"></input>
+                        <button class="email__button">Get Started</button>
+                    </div>
+                    <p class="small__text">OUR TRUSTED CUSTOMERS</p>
+                    <img src="/assets/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt="" class="business__logo--list">
+                </div>
+                <div class="container__right">
+                    <figure>
+                        <img class=header__img src="/assets/hero-img.svg" alt="">
                     </figure>
                 </div>
             </div>
@@ -55,11 +61,11 @@
         <div class="row">
             <p class="purple  subtitle">FEATURES</p>
             <h2>We Have Amazing <span class="purple">Service.</span></h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos accusantium aut ipsam veritatis fuga illum omnis inventore quo amet.
+            <p class="description__para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos accusantium aut ipsam veritatis fuga illum omnis inventore quo amet.
             </p>
             <div class="services">
                 <div class="service">
-                    <i></i>
+                    <i class="fa-solid fa-shield-halved"></i>
                     <h3 class="service__title">
                         Secure
                     </h3>
@@ -68,48 +74,48 @@
                     </p>
                 </div>
                 <div class="service">
-                    <i></i>
+                    <i class="fa-solid fa-headset"></i>
                     <h3 class="service__title">
-                        Secure
+                        24/7 Support
                     </h3>
                     <p class="service__description">
-                        We strictly only deal with vendors that provide top notch secuirty.
+                        Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.
                     </p>
                 </div>
                 <div class="service">
-                    <i></i>
+                    <i class="fa-solid fa-sliders"></i>
                     <h3 class="service__title">
-                        Secure
+                        Customizable
                     </h3>
                     <p class="service__description">
-                        We strictly only deal with vendors that provide top notch secuirty.
+                        Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.
                     </p>
                 </div>
                 <div class="service">
-                    <i></i>
+                    <i class="fa-solid fa-arrow-right-arrow-left fa-rotate-90"></i>
                     <h3 class="service__title">
-                        Secure
+                        Reliable
                     </h3>
                     <p class="service__description">
-                        We strictly only deal with vendors that provide top notch secuirty.
+                        Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.
                     </p>
                 </div>
                 <div class="service">
-                    <i></i>
+                    <i class="fa-solid fa-bolt"></i>
                     <h3 class="service__title">
-                        Secure
+                        Fast
                     </h3>
                     <p class="service__description">
-                        We strictly only deal with vendors that provide top notch secuirty.
+                        Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.
                     </p>
                 </div>
                 <div class="service">
-                    <i></i>
+                    <i class="fa-solid fa-user-check"></i>
                     <h3 class="service__title">
-                        Secure
+                        Easy
                     </h3>
                     <p class="service__description">
-                        We strictly only deal with vendors that provide top notch secuirty.
+                        Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.
                     </p>
                 </div>
             </div>
@@ -117,14 +123,59 @@
     </section>
 
     <section class="quality__work">
-        <div class="row">
-            <p class="purple  subtitle" >
+        <div class="row two__column">
+            <div class="container__left--even">
+            <p class="purple  subtitle__left" >
                 QUALITY WORK
             </p>
-            <h2>Designed and Developed by <span class="purple">Professionals</span></h2>
+            <h2 class="left__title">Designed & Developed by <span class="purple">Professionals.</span></h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis deserunt harum maiores voluptatum ea, iusto illo iure rerum nisi ipsam. Iste magni, ullam sequi facere dolorem rem natus officiis quibusdam veritatis ea, voluptas id? Distinctio, beatae?
             </p>
             <button>Learn More</button>
+            </div>
+            <div class="container__right--even">
+            <img class="section__img" src="/assets/hero-screenshot-1.40a097b525c2f8c9808e.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="steps">
+        <div class="row two__column">
+            <div class="container__left--even">
+                 <figure>
+                    <img class="section__img" src="/assets/hero-screenshot-2.241aac1fbc66db29d873.png" alt="">
+                </figure>
+            </div>
+            <div class="container__right--even">
+                <p class="purple subtitle__left">
+                    STEPS
+                </p>
+                <img src="" alt="">
+                <h3>Register</h3>
+                <p>Create an account with us using Google or Facebook.</p>
+                <img src="" alt="">
+                <h3>Download</h3>
+                <p>Browse and download the template that you like from the marketplace.</p>
+                <img src="" alt="">
+                <h3>Run</h3>
+                <p>Follow the instructions to set up and customize the template to your needs. </p>
+            </div>
+    </section>
+
+    <section class="quality__work">
+        <div class="row two__column">
+            <div class="container__left--even">
+            <p class="purple  subtitle__left" >
+                QUALITY WORK
+            </p>
+            <h2 class="left__title">Designed & Developed by <span class="purple">Professionals.</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis deserunt harum maiores voluptatum ea, iusto illo iure rerum nisi ipsam. Iste magni, ullam sequi facere dolorem rem natus officiis quibusdam veritatis ea, voluptas id? Distinctio, beatae?
+            </p>
+            <button>Learn More</button>
+            </div>
+            <div class="container__right--even">
+            <img class="section__img" src="/assets/hero-screenshot-1.40a097b525c2f8c9808e.png" alt="">
+            </div>
         </div>
     </section>
     
