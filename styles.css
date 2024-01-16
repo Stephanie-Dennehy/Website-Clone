@@ -144,6 +144,7 @@ input {
     padding: 20px 192px 20px 32px;
     border-radius: 32px;
     border: 1px solid #A0AEC0;
+    position: absolute;
 }
 
 input:hover {
@@ -160,9 +161,9 @@ input:active {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: relative;
     border: none;
-    margin-left: 240px;
+    margin-left: 220px;
 }
 
 .email__button:hover{
@@ -220,15 +221,17 @@ input:active {
     display: flex;
     align-items: flex-start;
     width: calc(100%/3);
+    padding: 24px 12px;
 }
 
 .service__description {
     display: flex;
     flex-direction: column;
+    margin: 16px 0;
+    padding-left: 16px;
 }
 
-i {
-    padding: 16px;
+i { padding: 16px;
     border-radius: 50px;
     color:#6415ff;
     border: 1px solid #6415ff;
@@ -237,6 +240,7 @@ i {
 .service__wrapper {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .service__title {
