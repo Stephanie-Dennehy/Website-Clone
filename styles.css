@@ -282,6 +282,12 @@ i { padding: 16px;
 
 /* STEPS */
 
-.steps {
-    
+.step__numbers {
+    display: flex;
+}
+
+.number {
+    font-size: 48px;
+    color: grey;
+    opacity: .8;
 }
