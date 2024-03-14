@@ -38,7 +38,7 @@ p {
 
 .row {
     width: 100%;
-    max-width: 1280px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -161,7 +161,7 @@ input:active {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
+    position: absolute;
     border: none;
     margin-left: 220px;
 }
@@ -282,12 +282,24 @@ i { padding: 16px;
 
 /* STEPS */
 
+.container__right--even {
+    display: flex;
+    flex-direction: column;
+}
+
 .step__numbers {
     display: flex;
+    width: 50%;
 }
 
 .number {
-    font-size: 48px;
+    font-size: 36px;
     color: grey;
     opacity: .8;
+    padding-right: 16px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
 }
